@@ -1,0 +1,35 @@
+.scroll-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    z-index: 99999;
+    background-color: #fff;
+    box-shadow: -7px 0px 14px -1px #747e91;
+    width: 100%;
+    padding: 0 10px;
+    transition: .3s;
+}
+.scroll-header .navigation-fixed{
+    margin: 0px 30px 0px auto;
+    position: relative;
+
+}
+.scroll-header .marker{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #ec6b2b;
+    bottom: -5px;
+    transition: .1s;
+}
+
+@media (max-width : 991px) {
+    .scroll-header{
+        display: none;
+    }
+}

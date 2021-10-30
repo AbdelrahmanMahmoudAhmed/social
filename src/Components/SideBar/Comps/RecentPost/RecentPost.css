@@ -1,0 +1,49 @@
+.recentPost{
+    margin-bottom: 50px;
+}
+.recentPost a {
+    color: #333;
+}
+.recentPost-holder{
+    margin-bottom: 35px;
+}
+.recentPost-holder .recent-img{
+    position: relative;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+}
+
+.recentPost-holder .recent-img .trending{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: fit-content;
+    height: 28px;
+    padding: 8px 15px;
+    display: inline-block;
+    background-color: #ec6a2a;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+
+}
+.recentPost-holder .title{
+    max-width: 100%;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.recentPost-holder .auther{
+    justify-content: left;
+    justify-items: center;
+    display: flex;
+    grid-gap: 20px;
+    gap: 20px;
+    font-size: 14px;
+}
+.recentPost-holder .auther span{
+    color: #999;
+    cursor: pointer;
+}

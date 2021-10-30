@@ -1,0 +1,22 @@
+*{
+    /* color: #333; */
+}
+
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+.sidebar-header .title{
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.sidebar-header span{
+    background-color: #ec6a2a;
+    height: 2px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}

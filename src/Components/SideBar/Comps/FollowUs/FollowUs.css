@@ -1,0 +1,68 @@
+.follow-us{  
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+    background-color: #f4f4f4;
+    padding: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.follow-us .title{    
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.follow-us .logos{    
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.follow-us .logos li a {
+    color: #333;
+    transition: .3s;
+}
+.follow-us .logos li a:hover {
+    color: #ec6a2a;
+}
+.follow-us .body{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.follow-us .body .body-title{
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.follow-us .body p{
+    line-height: 1.7;
+    font-weight: 100;
+    color: #999;
+}
+.follow-us .form{    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.follow-us .form input[type=email]{
+    width: 100%;
+    background: #fff;
+    padding: 15px 17px;
+    border: none;
+    margin-bottom: 10px;
+}
+.follow-us .form input[type=submit]{
+    width: 100%;
+    font-size: 14px;
+    width: 100%;
+    padding: 12px;
+    line-height: 27px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

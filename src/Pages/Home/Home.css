@@ -1,0 +1,60 @@
+.home{
+    position: relative;
+    color:  #333;
+}
+.home-content{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.home-content .blog-holder{
+    flex: 2;
+}
+.home-content .sidebar-holder{
+    flex: 1;
+    position: sticky;
+}
+.storis-toggle{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 25px;
+    left: 10px;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 4s;
+}
+.scrollTop{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 25px;
+    right: 30px;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 1s;
+}
+ .faCaretUp{
+    color: red;
+}
+@media (max-width : 767px) {
+    .storis-toggle{
+        display: none;
+    }
+}
+@media (max-width : 991px) {
+    .scrollTop{
+        bottom: 0px;
+    }
+}

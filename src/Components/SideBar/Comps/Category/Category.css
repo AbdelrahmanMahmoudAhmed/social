@@ -1,0 +1,26 @@
+.category{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.category-fractions{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+}
+
+
+.category-fractions .fraction{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-width: 488px;
+    height: 61px;
+    align-items: center;
+}
+.category-fractions .fraction span{
+    z-index: 9;
+    color: #fff;
+    font-weight: bold;
+
+}

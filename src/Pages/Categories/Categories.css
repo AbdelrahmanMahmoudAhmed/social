@@ -1,0 +1,29 @@
+.category-img{
+    background-image: url('https://a6e8z9v6.stackpathcdn.com/akea/wp-content/uploads/2018/11/page-title-1.jpg');
+    background-size: cover;
+    padding: 20px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 0px 50px;
+}
+.category-img .cate-caption{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+.category-img .cate-name{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+@media (max-width: 991px){
+    .category-img{
+        margin: 90px 0px 50px;
+    }
+}

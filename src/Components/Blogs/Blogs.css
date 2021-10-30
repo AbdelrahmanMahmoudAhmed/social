@@ -1,0 +1,192 @@
+.blogs{
+    background-color: #fefefe;
+    margin-bottom: 70px;
+}
+.post{
+    margin-bottom: 50px;
+}
+
+.blog-img-section{
+    position: relative;
+}
+.post .blogs-img-holder{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    /* height: fit-content; */
+}
+
+.post .blogs-img-holder:hover .overlay{
+    background-color: #12111162;
+}
+.post .blogs-img-holder:hover img {
+    transform: scale(1.2);
+}
+.post .blogs-img-holder .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent ;
+    transition: 1s;
+    z-index: 1;
+}
+
+.post .blogs-img-holder img{
+    height: 100%;
+    display: block;
+    transition: 1s;
+}
+.post .react {
+    position: absolute;
+    bottom: -14px;
+    left: -15px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    box-shadow: -6px 6px 25px -8px #a19c9c;
+
+}
+.post a {
+    color: #333;
+}
+.post .post-title{
+    max-width: 100%;
+    margin-top: 50px;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 700;
+}
+.post .post-title:hover{
+    color: #ec6a2a;
+}
+.post .post-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+.post .post-info > div:not(:first-child) {
+    margin: 0 7px;
+}
+.post .post-info > div:first-child{
+    margin-right: 7px;
+}
+.post .post-info .user-img img{
+    border-radius: 50%;
+    height: 40px;
+    cursor: pointer;
+}
+.post .post-info span.name{
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.8;
+    color: #959595;
+    cursor: pointer;
+}
+.post .post-info span.mark{
+    background-color: #ec6a2a;
+    height: 2px;
+    width: 10px;
+    display: inline-block;
+    margin-left: 8px;
+    font-weight: 600;
+}
+.post .post-contenet{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #959595;
+}
+.post .social-share{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.post .social-share .social{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-right: 20px;
+}
+.blogs .transition{
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+    gap: 5px;
+    margin-top: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.blogs .transition span{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #929292;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.blogs .transition span.hidden{
+    visibility: hidden;
+    pointer-events: none
+}
+.blogs .transition span.active ,
+.blogs .transition span:hover{
+    background-color: #ec6a2a;
+    color: #fff;
+}
+.blogs .transition span svg {
+    pointer-events: none
+
+}
+
+
+/* style in post route */
+.for-post{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.for-post a {
+    order: 3;
+    text-align: center;
+}
+.for-post .post-info {
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.for-post-title{
+    width: 80%;
+    margin: 30px auto;
+    font-size: 26px;
+}
+.post-contenet.for-post-p {
+    width: 80%;
+    margin: 20px auto;
+    color: #333;
+}
+
+
+@media (max-width: 991px) {
+    .for-post{
+        margin-top: 75px;
+    
+    }
+}

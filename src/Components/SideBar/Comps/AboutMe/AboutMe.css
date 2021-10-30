@@ -1,0 +1,31 @@
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.img img{
+    width: 130px;
+}
+.about-me .text {
+    max-width: 350px;
+    line-height: 1.7;
+    font-weight: 100;
+    color: #999;
+}
+.about-me .more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+.about-me .more span ,
+.more-arrow {
+    text-align: center;
+    color: #ec6a2a !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,24 @@
+.our-gallery{
+    margin-bottom: 30px;
+}
+.our-gallery .gallery-header{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.our-gallery .gallery-holder{
+    display: flex;
+}
+.our-gallery .gallery-holder div img {
+    height: 100%;
+}
+.our-gallery .gallery-holder div{
+    cursor: pointer;
+}
+
+@media (max-width : 767px) {
+    .gallery-holder{
+        flex-direction: column;
+    }
+}

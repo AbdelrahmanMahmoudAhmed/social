@@ -1,0 +1,117 @@
+.post-form .post-form-header{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.post-form .form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.post-form .form textarea {
+    flex-basis: 100%;
+    font-family: 'Cairo', sans-serif;
+    border-color: #d7d7d7;
+    background-color: #ffffff;
+    padding: 18px 22px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 14px;
+    font-size: 14px;
+    outline: none;
+    color: #333;
+    height: 170px;
+    font-size: 18px;
+
+
+}
+
+.post-form .form .form-name {
+
+    /* flex: 1 1 50%; */
+    flex-basis: 50%;
+    align-items: stretch;
+    flex: 1;
+
+    border-color: #d7d7d7;
+    background-color: #ffffff;
+    padding: 18px 22px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 14px;
+    font-size: 14px;
+    outline: none;
+    color: #333;
+
+}
+
+.post-form .form .form-email {
+
+    /* flex: 1 1 50%;     */
+    flex-basis: 50%;
+    align-items: stretch;
+    flex: 1;
+    color: #333;
+
+    border-color: #d7d7d7;
+    background-color: #ffffff;
+    padding: 18px 22px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 14px;
+    font-size: 14px;
+    outline: none;
+
+
+}
+
+.post-form .form .form-website {
+    flex-basis: 100%;
+    color: #333;
+
+    border-color: #d7d7d7;
+    background-color: #ffffff;
+    padding: 18px 22px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 14px;
+    font-size: 14px;
+    outline: none;
+}
+
+.post-form .form .checkbox-holder {
+    display: flex;
+    gap: 5px;
+    flex-basis: 100%;
+    color: #333;
+
+
+}
+
+/* .post-form .form .checkbox-holder  .form-lable{
+
+} */
+.post-form .form .form-submit {
+    text-transform: none;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 15px 33px 19px;
+    cursor: pointer;
+    font-weight: 700;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+    border: none;
+    margin-top: 20px;
+
+}

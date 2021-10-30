@@ -1,0 +1,33 @@
+.tags{
+    margin-bottom: 50px;
+}
+.tags a {
+    color: #333;
+}
+.tags-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+.tags-holder .tag{
+    background-color: #f4f4f4;
+    height: 36px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.tags-holder .tag a{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 16px 8px;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    border: none;
+}
