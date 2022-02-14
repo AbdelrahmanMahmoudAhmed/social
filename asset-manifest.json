@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/social/static/css/main.14d7f806.css",
+    "main.js": "/social/static/js/main.8231d84f.js",
+    "static/media/five.jpeg": "/social/static/media/five.608bedfbb6f078560da1.jpeg",
+    "static/media/three.jpeg": "/social/static/media/three.6f2ed1f10a4e78516f59.jpeg",
+    "static/media/one.jpg": "/social/static/media/one.878ec6c874c24346e097.jpg",
+    "static/media/two.jpg": "/social/static/media/two.16cf1d29166833e22bd8.jpg",
+    "static/media/four.jpeg": "/social/static/media/four.b94ab9013e8b438bec62.jpeg",
+    "static/media/hugues-de-buyer-mimeure-335733-unsplash.jpg": "/social/static/media/hugues-de-buyer-mimeure-335733-unsplash.4263d27fd50ffcc26333.jpg",
+    "static/media/brenda-godinez-228181-unsplash-1300x530.jpg": "/social/static/media/brenda-godinez-228181-unsplash-1300x530.3f26f2e126908df6a0fe.jpg",
+    "static/media/pexels-photo-25284-1300x530.jpg": "/social/static/media/pexels-photo-25284-1300x530.7b962493a56737147c14.jpg",
+    "static/media/pexels-photo-736166-1300x530.jpeg": "/social/static/media/pexels-photo-736166-1300x530.0466aabffbd6ccef496f.jpeg",
+    "static/media/brooke-lark-289769-unsplash-1300x530.jpg": "/social/static/media/brooke-lark-289769-unsplash-1300x530.e2d7a1a8cf80265862fd.jpg",
+    "static/media/one.jpeg": "/social/static/media/one.c49cb78713c5d398668a.jpeg",
+    "static/media/ten.jpg": "/social/static/media/ten.0a0549f39fc2bfa43613.jpg",
+    "static/media/recent2.jpg": "/social/static/media/recent2.b8b60bbf6bacb38e0378.jpg",
+    "static/media/logo-1-1.png": "/social/static/media/logo-1-1.987d469b152805312d48.png",
+    "static/media/six.jpg": "/social/static/media/six.b45af65395a9e9923c5f.jpg",
+    "static/media/seven.jpg": "/social/static/media/seven.8d5d87e05a1e51f8b7ed.jpg",
+    "static/media/recent3.jpg": "/social/static/media/recent3.36eb3b61855ad3f87177.jpg",
+    "static/media/nine.jpg": "/social/static/media/nine.f45241d21f52e04a319e.jpg",
+    "static/media/recent1.jpg": "/social/static/media/recent1.f45241d21f52e04a319e.jpg",
+    "static/media/about-image.png": "/social/static/media/about-image.6a72e467644163d3a445.png",
+    "static/media/tanja-heffner-204193-unsplash-1300x530.jpg": "/social/static/media/tanja-heffner-204193-unsplash-1300x530.ae058e9ea9fd322af0af.jpg",
+    "static/media/pexels-photo-225227-1000x486.jpeg": "/social/static/media/pexels-photo-225227-1000x486.35fbd52859836e26aaba.jpeg",
+    "static/media/eight.jpg": "/social/static/media/eight.f9e4e5dfc7da3824194d.jpg",
+    "static/media/banner-600.jpg": "/social/static/media/banner-600.c1d9aa95248b463b4022.jpg",
+    "static/media/banner-250.jpg": "/social/static/media/banner-250.82173883d2889a9f0fc0.jpg",
+    "index.html": "/social/index.html",
+    "main.14d7f806.css.map": "/social/static/css/main.14d7f806.css.map",
+    "main.8231d84f.js.map": "/social/static/js/main.8231d84f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14d7f806.css",
+    "static/js/main.8231d84f.js"
+  ]
+}
